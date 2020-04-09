@@ -1,0 +1,46 @@
+html, body{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: rgba(82, 175, 82, 1);
+    color: white;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.title{
+    margin-top: 0 auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+tr{
+    display: flex;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
